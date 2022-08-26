@@ -1,0 +1,23 @@
+{
+  "@context" :{
+  	"@vocab": "...",
+    "fk": "..."
+  },
+  "type": "object",
+  "@type": "fk:Address",  
+  "properties": {
+    "street": {
+    	"type": "string"
+    },
+    "city": {
+    	"type": "string"
+    },
+    "country": {
+    	"type": "string",
+      "pattern": "\\w{2}"
+    },
+    "zip": {
+    	"type": "string"
+    }
+  }
+}
