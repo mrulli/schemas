@@ -14,7 +14,7 @@
     },
     "country": {
     	"type": "string",
-      "pattern": "\\w{2}"
+      "pattern": "^\\w{2}$"
     },
     "zip": {
     	"type": "string"
