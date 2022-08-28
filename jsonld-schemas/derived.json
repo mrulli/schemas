@@ -1,0 +1,13 @@
+{
+    "@context":
+    {
+        "@vocab": "https://raw.githubusercontent.com/mrulli/schemas/main/jsonld-schemas/main.json"
+    },
+    "@graph":[
+      {
+        "@id": "custom_property_1",
+        "@type": "rdf:Property",
+        "rdfs:label": "a custom property"
+      }
+   ]
+}
